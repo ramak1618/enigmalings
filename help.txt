@@ -1,0 +1,23 @@
+Run the commands:
+-----------------
+$ unzip level0A
+$ cd level0A
+
+
+You should be able to figure it out from there!
+
+
+Want a hint??
+-------------
+[ inside the level0A folder ]
+$ cat hints.txt
+
+
+Notes
+------
+unzip is a tool that lets you decompress a .zip file. 
+It will automatically ask you for password, if the .zip was encrypted with one.
+The first one isn't, but the rest are.
+
+While typing the command don't include "$"
+The "$" indicates the shell prompt, and appears automatically.

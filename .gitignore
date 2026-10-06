@@ -1,0 +1,18 @@
+# vim swp files
+*.swp
+
+# html parsed md files
+README.html
+
+# levels
+level0A/
+level0B/
+level0C/
+level1A/
+level1B/
+
+# test folder
+box/
+
+# shorthand to make all the archives
+makefile
