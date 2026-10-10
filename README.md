@@ -15,23 +15,54 @@ Requirements
 Help
 ----
 * Start by installing the [Requirements](#requirements)
-* On debian based systems (ubuntu/mint/etc.):
-  ```bash
-    sudo apt install mpv yt-dlp ffmpeg git
-  ```
-* On arch based systems:
-  ```bash
-    sudo pacman -S mpv yt-dlp ffmpeg git
-  ```
-* On fedora:
-  ```bash
-    sudo dnf install mpv yt-dlp ffmpeg git
-  ```
-* On void:
-  ```bash
-    sudo xbps-install -S mpv yt-dlp ffmpeg git
-  ```
-* :( for other distros.
+    * On debian based systems (ubuntu/mint/etc.):
+      ```bash
+        sudo apt install git
+      ```
+    * On arch based systems:
+      ```bash
+        sudo pacman -S git
+      ```
+    * On fedora:
+      ```bash
+        sudo dnf install git
+      ```
+    * On void:
+      ```bash
+        sudo xbps-install -S git
+      ```
+    * :( for other distros.
+
+* Audio (Optional)
+    * On arch based systems: 
+      ```bash
+           sudo pacman -S ffmpeg yt-dlp mpv
+      ```
+    * On void:
+      ```bash
+           sudo xbps-install -S ffmpeg yt-dlp mpv
+      ```
+    * On debian based (ubuntu/mint/etc.):
+      ```bash
+           sudo apt install ffmpeg mpv
+           sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp
+           sudo chmod +x /usr/local/bin/yt-dlp
+      ```
+      Note: run this command to update yt-dlp
+      ```bash
+           sudo yt-dlp -U
+      ```
+    * On fedora:
+      ```bash
+           sudo dnf install ffmpeg mpv
+           sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp
+           sudo chmod +x /usr/local/bin/yt-dlp
+      ```
+      Note: run this command to update yt-dlp
+      ```bash
+           sudo yt-dlp -U
+      ```
+    * :( for other distros
 
 &nbsp;
 
@@ -86,6 +117,8 @@ Then you may check audio using:
 ./test.sh
 ```
 Note: Audio might have startup delay and/or get stuck depending on your internet connection
+
+_Press Ctrl+C to stop playing audio._
 
 &nbsp;
 
