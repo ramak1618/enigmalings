@@ -71,12 +71,21 @@ Make a copy of this repo and move into it:
 git clone https://github.com/ramak1618/enigmalings
 cd enigmalings
 ```
+FOR WSL USERS:
+
+Make sure while running `git clone` you are in the linux filesystem
+
+i.e.  `pwd` MUST NOT start with /mnt/
+
+&nbsp;
 
 Then you may check audio using:
 ```
 ./test.sh
 ```
 Note: Audio might have startup delay and/or get stuck depending on your internet connection
+
+&nbsp;
 
 Get your first exercise:
 ```
