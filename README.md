@@ -67,15 +67,17 @@ You should know these commands before starting (You do not need to know alternat
 
 After you have these prepared:
 Make a copy of this repo and move into it:
+
+> [ NOTE: FOR WSL USERS ]
+
+> Make sure while running the following commands you are in the linux filesystem
+
+> i.e.  `pwd` MUST NOT start with /mnt/
+
 ```
 git clone https://github.com/ramak1618/enigmalings
 cd enigmalings
 ```
-FOR WSL USERS:
-
-Make sure while running `git clone` you are in the linux filesystem
-
-i.e.  `pwd` MUST NOT start with /mnt/
 
 &nbsp;
 
