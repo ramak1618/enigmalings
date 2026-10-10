@@ -69,9 +69,9 @@ After you have these prepared:
 Make a copy of this repo and move into it:
 
 > [ NOTE: FOR WSL USERS ]
-
+>
 > Make sure while running the following commands you are in the linux filesystem
-
+>
 > i.e.  `pwd` MUST NOT start with /mnt/
 
 ```
